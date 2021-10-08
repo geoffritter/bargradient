@@ -1,0 +1,23 @@
+{
+  "name": "bargradient",
+  "version": "1.0.0",
+  "description": "Generates CSS styles for a variable rotation, spread, and blured, bar pattern.",
+  "main": "./src/bargradient.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Geoff Ritter <im@geoffritter.com>",
+  "license": "MIT",
+  "config": {
+    "http": "demo",
+    "port": "8000",
+    "watch": true,
+    "watchdirs": "demo:src",
+    "websocketport": "8001"
+  },
+  "devDependencies": {
+    "ws": "^8.2.3"
+  }
+}
